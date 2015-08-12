@@ -1,0 +1,10 @@
+# Use container-based infrastructure:
+sudo: false
+
+notifications:
+  email: false
+
+# Skip "install" stage:
+install: true
+
+script: ./travis.sh
